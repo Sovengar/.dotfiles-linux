@@ -43,6 +43,7 @@ brew "zsh-completions"
 brew "jesseduffield/lazydocker/lazydocker"
 #brew "schappim/ocr/ocr"
 
+package 'unzip'
 
 
 #brew install --cask devtoys

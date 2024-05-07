@@ -12,16 +12,6 @@ cd "$HOME"
 echo "Init submodules"
 ~/.local/bin/yadm submodule update --recursive --init
 
-# homebrew
-if ! command -v /opt/homebrew/bin/brew &> /dev/null
-then
-    echo 'brew must be installed! (/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")'
-else
-    echo "Homebrew already installed. Getting updates..."
-    /opt/homebrew/bin/brew update
-    /opt/homebrew/bin/brew doctor
-fi
-
 # Verify that Linuxbrew is installed
 if ! command -v brew &> /dev/null
 then

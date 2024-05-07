@@ -3,9 +3,6 @@
 echo "Upgrading packages..."
 sudo apt-get update
 
-echo "Installing curl..."
-sudo apt install -y curl
-
 # Verificar si Linuxbrew está instalado
 if ! command -v brew >/dev/null 2>&1
 then

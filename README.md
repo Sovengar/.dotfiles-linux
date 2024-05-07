@@ -2,7 +2,7 @@
 My dotfile configurations
 
 ## Prerequisites:
-- [Homebrew](https://brew.sh/)
+- [curl](https://curl.se/docs/manpage.html)
 
 ### Pre-Installation
 ```bash
